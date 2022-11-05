@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="slider-container">
+        <h1>Image Corousel</h1>
+        <div class="slider-inner-t-con">
+            <button class="slider-pre-btn slider-btn" onclick="handle_increment('left')">&#10094;</button>
+            <div class="slider-img-con">
+                <img id="sider-img"
+                    src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="slider image" class="slider-main-img">
+            </div>
+            <button class="slider-next-btn slider-btn" onclick="handle_increment('right')">&#10095;</button>
+        </div>
+        <div class="slider-inner-b-con">
+            <!-- <div class="dot-indicator dot-1 "></div>
+            <div class="dot-indicator dot-2 "></div>
+            <div class="dot-indicator dot-3 "></div>
+            <div class="dot-indicator dot-4 "></div> -->
+        </div>
+    </div>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
